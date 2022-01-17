@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bangers&family=Caveat:wght@500&family=Cinzel&family=Cookie&family=Dongle&family=Indie+Flower&family=Lobster&family=Luckiest+Guy&family=Luxurious+Roman&family=Pacifico&family=Staatliches&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+/*navbar styling */
+.navbar{
+    position: fixed;
+    width: 100%;
+    padding: 10px 0;
+    background: rgb(173, 226, 228);
+    font-family: "Cinzel";
+    justify-content: center;
+    font: bold;
+}
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo a{
+    color: black;
+    font-size: 35px;
+    font-weight: 600;
+}
+.navbar .logo a span{
+    color: rgb(233, 105, 201);
+    font-size: 35px;
+    font-weight: 600;
+}
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+.navbar .menu li a{
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: color 0.3s ease-in-out;
+}
+.navbar ul li a:hover{
+    background-color: rgb(130, 179, 219);
+    color: black;
+}
+
+/* Home section styling */
+.home{
+    display: flex;
+    background: url("img/a1.jpg") no-repeat center;
+    height: 100vh;
+    color: rgb(0, 0, 0);
+    min-height: 500px;
+    font-family: "Pacifico";
+    background-attachment: fixed;
+}
+.home.max-width{
+    margin: auto 0 auto 40px;
+}
+.home .home-content .text-1{
+    font-size: 27px;
+}
+.home .home-content .text-2{
+    font-size: 65px;
+    font-weight: 500;
+    margin-left: 10px;
+    font-family: "Lobster";
+}
+.home .home-content .text-3{
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    margin: 5px 0;
+    font-family: "Luxurious roman";
+}
+.home .home-content .text-3 span{
+    color: red;
+    font-family: "pacifico";
+    font-size: 40px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    /*border: 1px solid white; */
+    align-items: center;
+    position: absolute;
+    top: 30%;
+    right: 10%;
+}
+
+/* About me section styling */
+.about{
+    display: flex;
+    height: 100vh;
+    color: rgb(0, 0, 0);
+    min-height: 500px;
+    font-family: "staatliches";
+    background: url(img/a7.jpg) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.about.max-width{
+    margin: left;
+    display: flex;
+    height: 88;
+    align-items: center;
+}
+.about img{
+    float: right;
+    height: 475px;
+    width: 375px;
+    padding: 15px;
+    vertical-align: middle;
+}
+h1{
+    font-size: 70px;
+    display: flex;
+    align-items: center;
+}
+.p {
+    font-size: 50px;
+    font-weight: 450;
+    margin-left: 10px;
+    font-family: "Staatliches";
+    display: flex;
+    align-items: center;
+    text-align: justify;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    /*border: 1px solid white; */
+    align-items: center;
+    position: absolute;
+    top: 30%;
+    right: 10%;
+}
+
+/* Experience section styling */
+.experience{
+    display: flex;
+    height: 100vh;
+    color: rgb(0, 0, 0);
+    min-height: 500px;
+    font-family: "Cookie";
+    background: url(img/a5.jpg) no-repeat center;
+    width: 100%;
+    padding: 100px 0px;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.experience .max-width{
+    margin: left;
+}
+h1{
+    color: rgb(0, 0, 0);
+     font-size: 70px;
+     font-weight: lighter;
+} 
+h1 span{
+    font-size: 70px;
+    color: rgb(0, 0, 0);
+    font-family: "Staatliches";
+    font-weight: lighter;
+}   
+h2{
+    font-size: 20px;
+    font-family: "pacifico";
+    font-weight: lighter;
+}   
+p {
+    font-family: "Dongle";
+    font-size: 20px;
+    text-align: justify;
+    font-weight: 550;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    /*border: 1px solid white; */
+    align-items: center;
+    position: absolute;
+    top: 30%;
+    right: 10%;
+}
+
+/* Education section styling */
+.education{
+    display: flex;
+    height: 100vh;
+    color: rgb(0, 0, 0);
+    min-height: 500px;
+    font-family: "Staatliches";
+    background: url(img/a4.jpg) no-repeat center;
+    width: 100%;
+    padding: 100px 0px;
+    background-attachment: fixed;
+}
+.education .max-width{
+    margin: left;
+}
+.education .education-content .headings{
+    font-size: 60px;
+}
+.education .education-content .Quotes{
+    font-size: 75px;
+    font-weight: 450;
+    margin-left: 10px;
+    font-family: "Luckiest Guy";
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 350px;
+}
+.card{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background-color: rgb(7, 138, 199);
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.card i{
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: whitesmoke;
+}
+.h3{
+    font-size: 35px;
+    margin-bottom: 15px;
+    color: whitesmoke
+}
+.pra{
+    color: wheat;
+    font-size: 15px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    /*border: 1px solid white; */
+    align-items: center;
+    position: absolute;
+    top: 30%;
+    right: 10%;
+}
+
+/* Family section styling */
+.family{
+    display: flex;
+    height: 100vh;
+    color: rgb(0, 0, 0);
+    min-height: 500px;
+    font-family: "Pacifico";
+    background: url(img/a8.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+.family .max-width{
+    margin: left;
+    display: flex;
+    height: 88;
+    align-items: center;
+}
+.family img{
+    height: 400px;
+    width: 550px;
+    vertical-align: middle;
+}
+.family .family-content .text-1{
+    font-size: 27px;
+    display: flex;
+    height: 88;
+    align-items: center;
+}
+.family .family-content .text-2{
+    font-size: 15px;
+    font-weight: 450;
+    margin-left: 10px;
+    font-family: "Luxurious Roman";
+    display: flex;
+    height: 88;
+    align-items: center;
+    text-align: justify;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    /*border: 1px solid white; */
+    align-items: center;
+    position: absolute;
+    top: 30%;
+    right: 10%;
+}
+
+/* Gallery section styling */
+.gallery{
+    display: flex;
+    height: 100vh;
+    color: rgb(0, 0, 0);
+    min-height: 100px;
+    background: url(img/a8.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: "Lobster";
+}
+.gallery .max-width{
+    margin: left;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    /*border: 1px solid white; */
+    align-items: center;
+    position: absolute;
+    top: 10%;
+    right: 10%;
+}
